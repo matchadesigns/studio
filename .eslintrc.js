@@ -1,14 +1,20 @@
 module.exports = {
-  extends: ['standard', 'standard-react'],
-  parser: 'babel-eslint',
+  extends: [
+    "eslint:recommended",
+    "standard",
+    "standard-react",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+  ],
   rules: {
-    'react/prop-types': 0,
-    'object-curly-spacing': ['error', 'never']
+    "react/prop-types": 0,
+    "react/jsx-fragments": [1, "element"],
+    "object-curly-spacing": ["error", "never"],
   },
   settings: {
     react: {
-      pragma: 'React',
-      version: '16.8.6'
-    }
-  }
-}
+      pragma: "React",
+      version: "16.8.4",
+    },
+  },
+};
