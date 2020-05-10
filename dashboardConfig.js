@@ -21,8 +21,14 @@ export default {
             category: 'Code'
           },
           {
-            title: 'Frontend',
+            title: 'Site web',
             value: 'https://matchadesigns.com',
+            category: 'apps'
+          },
+          {
+            title: 'Déploiement',
+            value:
+              'https://api.zeit.co/v1/integrations/deploy/QmTdb7Hgf1EMafNJUwaw6aqndzwschFRyaTk5nZiQuS4yK/TGVqk2pFc2',
             category: 'apps'
           }
         ]
