@@ -10,6 +10,12 @@ export default {
       type: 'string'
     },
     {
+      title: 'Titre',
+      description: 'Titre du segment',
+      name: 'title',
+      type: 'string'
+    },
+    {
       title: 'Corps',
       name: 'body',
       type: 'blockContent'

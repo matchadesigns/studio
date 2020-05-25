@@ -7,7 +7,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 /*
     DOCUMENT TYPES
 */
-import category from './documents/category'
+// import category from './documents/category'
 import page from './documents/page/page'
 
 // Project
@@ -52,7 +52,7 @@ export default createSchema({
     pageSegment,
     // The following are document types which will appear
     // in the studio.
-    category,
+    // category,
     page,
     ///
     project,
