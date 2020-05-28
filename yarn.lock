@@ -1071,12 +1071,13 @@
     rxjs "^6.1.0"
     scroll "^2.0.0"
 
-"@sanity/components@^1.149.15":
-  version "1.149.15"
-  resolved "https://registry.yarnpkg.com/@sanity/components/-/components-1.149.15.tgz#6d51d058bd6671a85ceebc1759ba74e0fa9f9fe9"
-  integrity sha512-9wqswf/KrEnfgji8hVxkK/6CouBweNYdK/WFUs0oUgkurYhbOIkugtDDITQ7cmi8kcqKwMjtCT5IZ6REIqZ05A==
+"@sanity/components@^0.144.2":
+  version "0.144.2"
+  resolved "https://registry.yarnpkg.com/@sanity/components/-/components-0.144.2.tgz#4a154e20adf976f6e42612893caf50ed7b811762"
+  integrity sha512-g/FkcDnw0GdkiV8e8RzsURbHfPnXnXUJuBBthK7kn4S4kWBIx07LrJf8+4CCiiJYsGrCPPB1veM2Tq0L0WIhFw==
   dependencies:
-    "@sanity/base" "1.149.15"
+    "@sanity/date-input" "0.144.0"
+    "@sanity/imagetool" "0.144.0"
     attr-accept "^1.1.0"
     boundless-arrow-key-navigation "^1.1.0"
     chance "^1.0.4"
@@ -1087,7 +1088,8 @@
     dom-scroll-into-view "^1.2.1"
     element-resize-detector "^1.1.14"
     exif-component "^1.0.1"
-    lodash "^4.17.15"
+    in-publish "^2.0.0"
+    lodash "^4.17.4"
     nano-pubsub "^1.0.2"
     palx "^1.0.3"
     popper.js "1.14.1"
@@ -1099,7 +1101,7 @@
     react-sortable-hoc "^0.6.3"
     react-split-pane "^0.1.84"
     react-tippy "^1.2.3"
-    rxjs "^6.5.3"
+    rxjs "^6.5.2"
     string-hash "^1.1.3"
 
 "@sanity/core@^1.149.13":
@@ -1199,6 +1201,14 @@
   dependencies:
     "@sanity/generate-help-url" "0.140.0"
     "@sanity/rich-date-input" "0.140.34"
+
+"@sanity/date-input@0.144.0":
+  version "0.144.0"
+  resolved "https://registry.yarnpkg.com/@sanity/date-input/-/date-input-0.144.0.tgz#a329028e927f0e35698750b720fb747f5c440288"
+  integrity sha512-p76yYPgEKSpWd7xgHgt8T1NWuDky7T00DghG7ojOrmRDwNvRQup8PNdiV+P1K1mRe8DfMlcfuHwQjrXMGfnFyw==
+  dependencies:
+    "@sanity/generate-help-url" "0.144.0"
+    "@sanity/rich-date-input" "0.144.0"
 
 "@sanity/default-layout@^1.149.15":
   version "1.149.15"
@@ -1347,6 +1357,11 @@
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-0.140.0.tgz#f60ab75be5fdc346b9f0d1c2a0858aa3c2870109"
   integrity sha512-H/G/WA9S22TXcXST52CIiTsHx3S2hH0gvK7LnI5w76vfKS0obnDPh8jrPg4xeNRYGPuV9MHYRlyERGpRGoo4Qw==
 
+"@sanity/generate-help-url@0.144.0":
+  version "0.144.0"
+  resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-0.144.0.tgz#27437654c0664380c2a925724aa6a7f8fd06207d"
+  integrity sha512-rtMloCn7azSymOR4hwHhiIB4C6Mv7wU3Gq+0MFByNGX3Vdlm3F55HCXxR/+X3Sey/OPDBucxBt59/iI08pAlMg==
+
 "@sanity/generate-help-url@1.149.0":
   version "1.149.0"
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-1.149.0.tgz#765c2803ae67da16b8349f71317873b67f04b486"
@@ -1366,6 +1381,15 @@
   version "0.140.30"
   resolved "https://registry.yarnpkg.com/@sanity/imagetool/-/imagetool-0.140.30.tgz#0edb825243e86035bf3846342051693db76d1ca5"
   integrity sha512-27dpxdvx2HPiPcwjIA8gwEgknH6q21RbAmcNCe6F/5ucSi8aMNA5ZEL3DYStuDyVArfkxaf/yp2DRF3MLMBfLQ==
+  dependencies:
+    debug "^3.1.0"
+    dom-event "1.0.0"
+    lodash "^4.17.4"
+
+"@sanity/imagetool@0.144.0":
+  version "0.144.0"
+  resolved "https://registry.yarnpkg.com/@sanity/imagetool/-/imagetool-0.144.0.tgz#88893bdaa0af123417ea4fd83edba3560d32b51b"
+  integrity sha512-KT7SFAaYHKiH6meup/3Os/glVSFLdCttexHB77VQ1ylyWEsTI6dcM7GOLfw8vYHnpGxjAaY5Uz61ZezHanKsnQ==
   dependencies:
     debug "^3.1.0"
     dom-event "1.0.0"
@@ -1515,6 +1539,18 @@
   integrity sha512-033EdXGtP5NHDkh76fdZLZB36Hr9JYTyBf/C+OlPz+Q5UEKB2m08fYCM4UVPcFhvt8Eqm7b7r9yQdFhEOArFbw==
   dependencies:
     "@sanity/generate-help-url" "0.140.0"
+    lodash "^4.17.4"
+    moment "^2.19.1"
+    moment-timezone "^0.5.11"
+    prop-types "^15.6.0"
+    react-datepicker "^1.8.0"
+
+"@sanity/rich-date-input@0.144.0":
+  version "0.144.0"
+  resolved "https://registry.yarnpkg.com/@sanity/rich-date-input/-/rich-date-input-0.144.0.tgz#c7b8cfbe5904c4dcefec6476980c6b18a03bf7a1"
+  integrity sha512-tD/DtzmFoEH1l6rt3logQtZrTDnRYZMOH/6sIRx49KCBnpF35Et+GjJQVvfsE1S1xmA4xaoGcF1RTokZXGNXCw==
+  dependencies:
+    "@sanity/generate-help-url" "0.144.0"
     lodash "^4.17.4"
     moment "^2.19.1"
     moment-timezone "^0.5.11"
