@@ -20,7 +20,7 @@
     "@sanity/core": "^1.149.13",
     "@sanity/dashboard": "^1.149.15",
     "@sanity/default-layout": "^1.149.15",
-    "@sanity/default-login": "^1.149.11",
+    "@sanity/default-login": "^1.149.16",
     "@sanity/desk-tool": "^1.149.16",
     "@theme-ui/presets": "^0.3.0",
     "date-fns": "^2.14.0",
