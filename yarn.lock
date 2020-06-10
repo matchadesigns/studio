@@ -960,7 +960,7 @@
     semver-compare "^1.0.0"
     shallow-equals "^1.0.0"
 
-"@sanity/base@1.149.16", "@sanity/base@^1.149.15":
+"@sanity/base@1.149.16", "@sanity/base@^1.149.16":
   version "1.149.16"
   resolved "https://registry.yarnpkg.com/@sanity/base/-/base-1.149.16.tgz#37cee8eeb116f8f446c78c603fd1e14e90e8d812"
   integrity sha512-Gzd/1aEXSQxoAI2btAbBWa8cgBmkjU7bXxlcgZuWFy8Ck0CgN/pFqeP4puQPMD68TejYrNa0hq9INmxvOWaJCQ==
