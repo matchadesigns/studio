@@ -1122,12 +1122,12 @@
     rxjs "^6.1.0"
     scroll "^2.0.0"
 
-"@sanity/components@^1.149.15":
-  version "1.149.15"
-  resolved "https://registry.yarnpkg.com/@sanity/components/-/components-1.149.15.tgz#6d51d058bd6671a85ceebc1759ba74e0fa9f9fe9"
-  integrity sha512-9wqswf/KrEnfgji8hVxkK/6CouBweNYdK/WFUs0oUgkurYhbOIkugtDDITQ7cmi8kcqKwMjtCT5IZ6REIqZ05A==
+"@sanity/components@^1.149.16":
+  version "1.149.16"
+  resolved "https://registry.yarnpkg.com/@sanity/components/-/components-1.149.16.tgz#0691eb8053928009e5e3743f8ff979fb4fd35df4"
+  integrity sha512-ZddXGCfKeZd0t22VtK/2wnk3hLBDfwXtBUhCJ8sKOAuNF3aO6NJa8qmLebXhDceYXqLIsXmLmoOpjpDGtImHIg==
   dependencies:
-    "@sanity/base" "1.149.15"
+    "@sanity/base" "1.149.16"
     attr-accept "^1.1.0"
     boundless-arrow-key-navigation "^1.1.0"
     chance "^1.0.4"
