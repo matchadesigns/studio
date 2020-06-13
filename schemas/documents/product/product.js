@@ -57,6 +57,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      name: 'deliveryTime',
+      title: 'Délai de livraison',
+      description: 'Laisser vide pour afficher le délai de livraison par défaut (1 semaine).',
+      type: 'string',
+    },
+    {
       title: 'Poids (g)',
       name: 'weight',
       type: 'number'
