@@ -33,7 +33,7 @@
     "sanity-plugin-dashboard-widget-netlify": "^1.0.1"
   },
   "devDependencies": {
-    "@sanity/cli": "^1.149.18",
+    "@sanity/cli": "^1.149.19",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.5.0",
     "eslint-config-standard": "^14.1.1",
