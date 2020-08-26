@@ -23,7 +23,7 @@
     "@sanity/default-login": "^1.149.18",
     "@sanity/desk-tool": "^1.149.18",
     "@theme-ui/presets": "^0.3.0",
-    "date-fns": "^2.14.0",
+    "date-fns": "^2.15.0",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
     "react-barcode": "^1.4.0",
