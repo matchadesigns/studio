@@ -1113,7 +1113,7 @@
     react-color "^2.13.8"
     reactcss "^1.2.0"
 
-"@sanity/components@1.150.3", "@sanity/components@^1.149.18":
+"@sanity/components@1.150.3", "@sanity/components@^1.150.3":
   version "1.150.3"
   resolved "https://registry.yarnpkg.com/@sanity/components/-/components-1.150.3.tgz#0eb9c47f2ce85f046880a1837db699763916d558"
   integrity sha512-IiRoQEnvSeKmBflBE6urwtDomlZcR5Tf+xKQkCkrhwjZeNDtnPtcXPpBHe97Sf4y7OI9lXunz75HB3G5QY7SPg==
