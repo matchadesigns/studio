@@ -1104,10 +1104,10 @@
     make-error "^1.3.0"
     object-assign "^4.1.1"
 
-"@sanity/color-input@^1.149.16":
-  version "1.149.16"
-  resolved "https://registry.yarnpkg.com/@sanity/color-input/-/color-input-1.149.16.tgz#dcf0ad55e740d848f73b5e927b89e92efa6f3477"
-  integrity sha512-G84efMudeO62QJ/IHCfQkD58ymBQ0vnkXe2YWij57xzNgmTbr5Ndu815k+GPSV8Kges3gGOICGhZ6ChfxD56hQ==
+"@sanity/color-input@^1.150.1":
+  version "1.150.1"
+  resolved "https://registry.yarnpkg.com/@sanity/color-input/-/color-input-1.150.1.tgz#2a538af5c4efc4632d554c3aaff4d14adfad9774"
+  integrity sha512-CxanULtnpAId7v4MUOQ4KNHzQLSs+U0anGar2t1aC+LzMlmzZRqfllkeyhOkN0sbVwjA5ehCwdK7pUIjAozt8A==
   dependencies:
     lodash "^4.17.15"
     react-color "^2.13.8"
