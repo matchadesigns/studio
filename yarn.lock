@@ -1290,12 +1290,12 @@
     react-tippy "1.4.0"
     rxjs "^6.5.3"
 
-"@sanity/default-login@^1.149.18":
-  version "1.149.18"
-  resolved "https://registry.yarnpkg.com/@sanity/default-login/-/default-login-1.149.18.tgz#18495092adc698f1221c70f1e642a186f79eb7d0"
-  integrity sha512-r8F3iaQhHWXylKXew2yNxNJ7JgiRachapQIrQ5Wg9cID5Myun7qr6T/CPqVclQNvT8FkQQB6cYf4nO9SKvLauw==
+"@sanity/default-login@^1.150.1":
+  version "1.150.1"
+  resolved "https://registry.yarnpkg.com/@sanity/default-login/-/default-login-1.150.1.tgz#53b38607f68b33f75696c80a9b65858640b0295f"
+  integrity sha512-IIxnVCAd+ZU/4cf3+tshAfj+1SUItNK6oI69zT/8I+DY7A0k8cbYMOSTbmf1LZktTGo+uFK45h5v87AnHMulTQ==
   dependencies:
-    "@sanity/generate-help-url" "1.149.16"
+    "@sanity/generate-help-url" "1.150.1"
     prop-types "^15.6.0"
     rxjs "^6.5.3"
 
