@@ -969,7 +969,7 @@
     semver-compare "^1.0.0"
     shallow-equals "^1.0.0"
 
-"@sanity/base@1.150.3", "@sanity/base@^1.149.18":
+"@sanity/base@1.150.3":
   version "1.150.3"
   resolved "https://registry.yarnpkg.com/@sanity/base/-/base-1.150.3.tgz#fa368aa02e82fd33d886500b9cbbb067a18f0eac"
   integrity sha512-fv29EjEYnZnxnMjTk8bbMm2EmjDp49MT4/RdH7tZXcMYqG7OLDaFbQ130U6shqMdk077aQ5YqC2p9b8/qbu95g==
@@ -977,6 +977,43 @@
     "@sanity/bifur-client" "^0.0.5"
     "@sanity/client" "1.150.1"
     "@sanity/components" "1.150.3"
+    "@sanity/generate-help-url" "1.150.1"
+    "@sanity/image-url" "^0.140.19"
+    "@sanity/initial-value-templates" "1.150.1"
+    "@sanity/mutator" "1.150.1"
+    "@sanity/observable" "1.150.1"
+    "@sanity/preview" "1.150.1"
+    "@sanity/schema" "1.150.3"
+    "@sanity/state-router" "1.150.1"
+    "@sanity/structure" "1.150.1"
+    "@sanity/transaction-collator" "1.150.1"
+    "@sanity/util" "1.150.1"
+    "@sanity/uuid" "1.150.1"
+    "@sanity/validation" "1.150.1"
+    history "^4.6.3"
+    lodash "^4.17.15"
+    nano-pubsub "^1.0.2"
+    nanoid "^3.1.9"
+    observable-callback "^1.0.1"
+    oneline "^1.0.3"
+    promise-props "^1.0.0"
+    react-fast-compare "^2.0.2"
+    react-icon-base "^2.1.2"
+    react-icons "^2.2.7"
+    react-intl "^2.2.2"
+    react-props-stream "^1.0.0"
+    rxjs "^6.5.3"
+    semver-compare "^1.0.0"
+    shallow-equals "^1.0.0"
+
+"@sanity/base@1.150.5", "@sanity/base@^1.150.5":
+  version "1.150.5"
+  resolved "https://registry.yarnpkg.com/@sanity/base/-/base-1.150.5.tgz#9de65e4a5887538cbc61aa7408b4c6b91c3b754c"
+  integrity sha512-owAjzMubxz8efMovGJtIXdA2Nf3XyLBWdU7fkFK9y3YpIA+hIU1TsH3c7GnuwWqdzLSxJnYMQr7TJx0kaOUTeg==
+  dependencies:
+    "@sanity/bifur-client" "^0.0.5"
+    "@sanity/client" "1.150.1"
+    "@sanity/components" "1.150.5"
     "@sanity/generate-help-url" "1.150.1"
     "@sanity/image-url" "^0.140.19"
     "@sanity/initial-value-templates" "1.150.1"
@@ -1113,7 +1150,7 @@
     react-color "^2.13.8"
     reactcss "^1.2.0"
 
-"@sanity/components@1.150.3", "@sanity/components@^1.149.18":
+"@sanity/components@1.150.3":
   version "1.150.3"
   resolved "https://registry.yarnpkg.com/@sanity/components/-/components-1.150.3.tgz#0eb9c47f2ce85f046880a1837db699763916d558"
   integrity sha512-IiRoQEnvSeKmBflBE6urwtDomlZcR5Tf+xKQkCkrhwjZeNDtnPtcXPpBHe97Sf4y7OI9lXunz75HB3G5QY7SPg==
@@ -1121,6 +1158,39 @@
     "@juggle/resize-observer" "3.1.3"
     "@reach/auto-id" "^0.10.5"
     "@sanity/base" "1.150.3"
+    "@sanity/util" "1.150.1"
+    attr-accept "^1.1.0"
+    boundless-arrow-key-navigation "^1.1.0"
+    chance "^1.0.4"
+    chroma-js "^2.0.4"
+    circular-at "^1.0.3"
+    classnames "^2.2.5"
+    date-fns "^1.29.0"
+    dom-scroll-into-view "^1.2.1"
+    element-resize-detector "^1.1.14"
+    exif-component "^1.0.1"
+    lodash "^4.17.15"
+    nano-pubsub "^1.0.2"
+    palx "^1.0.3"
+    popper.js "1.16.1"
+    react-animate-height "^2.0.6"
+    react-click-outside "^3.0.0"
+    react-motion "^0.5.2"
+    react-popper "1.3.7"
+    react-sortable-hoc "^0.6.3"
+    react-split-pane "^0.1.84"
+    react-tippy "1.4.0"
+    rxjs "^6.5.3"
+    string-hash "^1.1.3"
+
+"@sanity/components@1.150.5", "@sanity/components@^1.149.18":
+  version "1.150.5"
+  resolved "https://registry.yarnpkg.com/@sanity/components/-/components-1.150.5.tgz#0006f6e55b32f271e4067a9c8783b83e979aa6ae"
+  integrity sha512-m53dnacxsMuoVgkYueI2MWIYLrCng/1zX1QgbF5Otq5oUseaAiUsvO5on9zI58oBuJ0MQPwpRsEDz3OsVVSttw==
+  dependencies:
+    "@juggle/resize-observer" "3.1.3"
+    "@reach/auto-id" "^0.10.5"
+    "@sanity/base" "1.150.5"
     "@sanity/util" "1.150.1"
     attr-accept "^1.1.0"
     boundless-arrow-key-navigation "^1.1.0"
