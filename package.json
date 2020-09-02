@@ -35,7 +35,7 @@
   "devDependencies": {
     "@sanity/cli": "^1.149.18",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.5.0",
+    "eslint": "^7.8.1",
     "eslint-config-standard": "^14.1.1",
     "eslint-config-standard-react": "^9.2.0",
     "eslint-plugin-import": "^2.22.0",
