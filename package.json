@@ -14,7 +14,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@sanity/base": "^1.149.18",
+    "@sanity/base": "^1.150.7",
     "@sanity/color-input": "^1.149.16",
     "@sanity/components": "^1.149.18",
     "@sanity/core": "^1.149.18",
