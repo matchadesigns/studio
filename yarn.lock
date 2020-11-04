@@ -1065,7 +1065,7 @@
 
 "@sanity/color-input@^2.0.5":
   version "2.0.5"
-  resolved "https://registry.npmjs.org/@sanity/color-input/-/color-input-2.0.5.tgz#d7ffc6e762a65e5e0e79cafdc3718fe521668c2c"
+  resolved "https://registry.yarnpkg.com/@sanity/color-input/-/color-input-2.0.5.tgz#d7ffc6e762a65e5e0e79cafdc3718fe521668c2c"
   dependencies:
     lodash "^4.17.15"
     react-color "^2.13.8"
