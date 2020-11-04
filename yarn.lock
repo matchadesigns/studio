@@ -1239,7 +1239,7 @@
 
 "@sanity/desk-tool@^2.0.8":
   version "2.0.8"
-  resolved "https://registry.npmjs.org/@sanity/desk-tool/-/desk-tool-2.0.8.tgz#1cd8224d7d1b04a154771031376017c02f714adc"
+  resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.0.8.tgz#1cd8224d7d1b04a154771031376017c02f714adc"
   dependencies:
     "@popperjs/core" "^2.4.4"
     "@reach/auto-id" "^0.10.5"
