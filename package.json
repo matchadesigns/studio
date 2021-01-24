@@ -14,14 +14,14 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@sanity/base": "^2.1.4",
+    "@sanity/base": "^2.1.6",
     "@sanity/color-input": "^2.1.4",
     "@sanity/components": "^2.1.4",
     "@sanity/core": "^2.1.4",
     "@sanity/dashboard": "^2.1.4",
-    "@sanity/default-layout": "^2.1.4",
+    "@sanity/default-layout": "^2.1.6",
     "@sanity/default-login": "^2.1.4",
-    "@sanity/desk-tool": "^2.1.4",
+    "@sanity/desk-tool": "^2.1.6",
     "@theme-ui/presets": "^0.3.5",
     "date-fns": "^2.16.1",
     "prop-types": "^15.7.2",
@@ -35,7 +35,7 @@
   "devDependencies": {
     "@sanity/cli": "^2.1.4",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.17.0",
+    "eslint": "^7.18.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-config-standard-react": "^11.0.1",
     "eslint-plugin-import": "^2.22.1",
