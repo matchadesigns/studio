@@ -23,13 +23,13 @@ export default {
       name: 'description',
       type: 'text',
       title: 'Description',
-      description: 'Describe your portfolio for search engines and social media.'
+      rows: 3
     },
     {
       name: 'keywords',
       type: 'array',
       title: 'Keywords',
-      description: 'Add keywords that describes your portfolio.',
+      description: 'Add keywords that describes your site.',
       of: [{type: 'string'}],
       options: {
         layout: 'tags'
@@ -46,6 +46,17 @@ export default {
       type: 'string',
       title: 'Facebook',
       description: '@username'
+    },
+    {
+      name: 'topMessage',
+      type: 'text',
+      title: 'Message en haut de site',
+      rows: 3
+    },
+    {
+      name: 'isFreeShipping',
+      type: 'boolean',
+      title: 'Offrir les frais de port'
     }
   ]
 }
