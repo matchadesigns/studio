@@ -1,71 +1,71 @@
-import {parseISO, format} from 'date-fns'
+import { parseISO, format } from "date-fns";
 
 export default {
-  name: 'product',
-  title: 'Produit',
-  type: 'document',
+  name: "product",
+  title: "Produit",
+  type: "document",
   fields: [
     {
-      name: 'title',
-      title: 'Titre',
-      type: 'string',
-      validation: Rule => Rule.required()
+      name: "title",
+      title: "Titre",
+      type: "string",
+      validation: (Rule) => Rule.required(),
     },
     {
-      name: 'slug',
-      title: 'Slug',
+      name: "slug",
+      title: "Slug",
       description: "Cliquez sur 'Generate' pour créer automatiquement le slug",
-      type: 'slug',
-      validation: Rule => Rule.required(),
+      type: "slug",
+      validation: (Rule) => Rule.required(),
       options: {
-        source: 'title',
-        maxLength: 96
-      }
+        source: "title",
+        maxLength: 96,
+      },
     },
     {
-      name: 'category',
-      title: 'Catégorie',
-      type: 'reference',
-      to: [{type: 'productCategory'}],
-      validation: Rule => Rule.required()
+      name: "category",
+      title: "Catégorie",
+      type: "reference",
+      to: [{ type: "productCategory" }],
+      validation: (Rule) => Rule.required(),
     },
     {
-      name: 'images',
-      title: 'Images',
-      type: 'array',
+      name: "images",
+      title: "Images",
+      type: "array",
       of: [
         {
-          type: 'image',
+          type: "image",
           options: {
-            hotspot: true
-          }
-        }
+            hotspot: true,
+          },
+        },
       ],
-      validation: Rule => Rule.required()
+      validation: (Rule) => Rule.required(),
     },
     {
-      name: 'description',
-      title: 'Description',
-      type: 'blockContent',
-      validation: Rule => Rule.required()
+      name: "description",
+      title: "Description",
+      type: "blockContent",
+      validation: (Rule) => Rule.required(),
     },
     {
-      title: 'Prix',
-      description: 'En euros TTC',
-      name: 'price',
-      type: 'price',
-      validation: Rule => Rule.required()
+      title: "Prix",
+      description: "En euros TTC",
+      name: "price",
+      type: "price",
+      validation: (Rule) => Rule.required(),
     },
     {
-      name: 'deliveryTime',
-      title: 'Délai de livraison',
-      description: 'Laisser vide pour afficher le délai de livraison par défaut (1 semaine).',
-      type: 'string',
+      name: "deliveryTime",
+      title: "Délai de livraison",
+      description: "Laisser vide pour afficher le délai de livraison par défaut (1 semaine).",
+      type: "string",
     },
     {
-      title: 'Poids (g)',
-      name: 'weight',
-      type: 'number'
+      title: "Poids (g)",
+      name: "weight",
+      type: "number",
     },
     /*
     {
@@ -75,70 +75,76 @@ export default {
     },
     */
     {
-      title: 'Stock restant',
-      description: 'Vous devez tenir à jour vous-mêmes cette valeur.',
-      name: 'sku',
-      type: 'number',
-      validation: Rule => Rule.required()
+      title: "Stock restant",
+      description: "Vous devez tenir à jour vous-mêmes cette valeur.",
+      name: "sku",
+      type: "number",
+      validation: (Rule) => Rule.required(),
     },
     {
-      title: 'Code produit (référence unique)',
-      name: 'barcode',
-      type: 'barcode'
+      title: "Code produit (référence unique)",
+      name: "barcode",
+      type: "barcode",
     },
     {
-      title: 'Variants',
-      name: 'variants',
-      type: 'array',
+      title: "Variants",
+      name: "variants",
+      type: "array",
       of: [
         {
-          title: 'Variant',
-          type: 'productVariant'
-        }
-      ]
+          title: "Variant",
+          type: "productVariant",
+        },
+      ],
     },
     {
-      title: 'Date de publication/réalisation',
-      name: 'publishedAt',
-      type: 'date',
-      validation: Rule => Rule.required()
+      title: "Date de publication/réalisation",
+      name: "publishedAt",
+      type: "date",
+      validation: (Rule) => Rule.required(),
     },
     {
-      title: 'Tags',
+      title: "Tags",
       description: 'Tapez un tag et appuyez sur "Entrée" pour le valider',
-      name: 'tags',
-      type: 'array',
+      name: "tags",
+      type: "array",
       of: [
         {
-          type: 'string'
-        }
+          type: "string",
+        },
       ],
       options: {
-        layout: 'tags'
-      }
-    }
+        layout: "tags",
+      },
+    },
+    {
+      title: "Affichage en page boutique",
+      name: "displayInShop",
+      type: "boolean",
+      initialValue: true,
+    },
   ],
   preview: {
     select: {
-      title: 'title',
-      category: 'category.title',
-      media: 'images.0',
-      date: 'publishedAt'
+      title: "title",
+      category: "category.title",
+      media: "images.0",
+      date: "publishedAt",
     },
-    prepare (selection) {
-      const {title, category, date, media} = selection
+    prepare(selection) {
+      const { title, category, date, media } = selection;
       return {
         title,
-        subtitle: `${category}, ${format(parseISO(date), 'dd/MM/yyyy')}`,
-        media
-      }
-    }
+        subtitle: `${category}, ${format(parseISO(date), "dd/MM/yyyy")}`,
+        media,
+      };
+    },
   },
   orderings: [
     {
-      title: 'Date de publication, nouveaux',
-      name: 'publishedAtDesc',
-      by: [{field: 'publishedAt', direction: 'desc'}]
-    }
-  ]
-}
+      title: "Date de publication, nouveaux",
+      name: "publishedAtDesc",
+      by: [{ field: "publishedAt", direction: "desc" }],
+    },
+  ],
+};
