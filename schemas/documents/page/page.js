@@ -36,6 +36,16 @@ export default {
           type: 'pageSegment'
         }
       ]
+    },
+    {
+      name: 'images',
+      title: 'Images',
+      type: 'array',
+      of: [
+        {
+          type: 'image'
+        }
+      ]
     }
   ],
   preview: {
