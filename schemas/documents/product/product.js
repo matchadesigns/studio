@@ -84,7 +84,13 @@ export default {
     {
       title: "Code produit (référence unique)",
       name: "barcode",
-      type: "barcode",
+      type: "object",
+      fields: 
+      [{
+        name: 'barcode',
+        title: 'Barcode',
+        type: 'string'
+      }],
     },
     {
       title: "Variants",
@@ -128,7 +134,7 @@ export default {
     select: {
       title: "title",
       category: "category.title",
-      media: "images.0",
+      media: "images.0.asset",
       date: "publishedAt",
     },
     prepare(selection) {

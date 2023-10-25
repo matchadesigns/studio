@@ -85,7 +85,7 @@ export default {
       publishedAt: 'publishedAt',
       slug: 'slug',
       categorySlug: 'category.slug',
-      media: 'images.0'
+      media: 'images.0.asset'
     },
     prepare ({title = 'No title', publishedAt, slug = {}, categorySlug = {}, media}) {
       const dateSegment = format(parseISO(publishedAt), 'yyyy/MM')
