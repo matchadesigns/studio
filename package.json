@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@sanity/color-input": "^3.1.0",
-    "@sanity/components": "^2.14.0",
     "@sanity/dashboard": "^3.1.5",
     "@theme-ui/presets": "^0.16.1",
     "date-fns": "^2.30.0",

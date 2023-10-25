@@ -897,11 +897,6 @@
   resolved "https://registry.yarnpkg.com/@sanity/color/-/color-2.2.5.tgz#6b28578573859495ed1ffd5491322cb8e90b3e07"
   integrity sha512-tTi22KoKuER3sldXYl4c1Dq2zU7tMLDkljFiaUKVkBbu4PBvRGCFw75kXZnD2b4Bsp6vin+7sI+AKdCKRhfRuw==
 
-"@sanity/components@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@sanity/components/-/components-2.14.0.tgz#840d8e98fd55f35e2db2b211310c983b9f78cac4"
-  integrity sha512-D8t7l+exvw1cg80m8yDZDRboAI6L827FeCacGjTOdElvgrR2shtsbepYui7ODfRgx9ynAceNDsQ1VSNnUgIHug==
-
 "@sanity/dashboard@^3.1.5":
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/@sanity/dashboard/-/dashboard-3.1.5.tgz#e91bc4c384fa50bbc87800a2a8e9246761ad89a4"
