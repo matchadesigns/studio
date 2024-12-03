@@ -1,0 +1,26 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@sanity/desk-tool"
+    versions:
+    - 2.1.6
+    - 2.2.5
+    - 2.3.7
+  - dependency-name: "@sanity/dashboard"
+    versions:
+    - 2.1.4
+  - dependency-name: "@sanity/color-input"
+    versions:
+    - 2.1.4
+  - dependency-name: "@sanity/default-login"
+    versions:
+    - 2.1.4
+  - dependency-name: react-icons
+    versions:
+    - 4.1.0
